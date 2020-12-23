@@ -1,17 +1,27 @@
 /* google font */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("fonts.css");
 /* css variable */
 @import url("partials/variable.css");
 /* global css */
 @import url("partials/global.css");
 
-/* body */
-body {
-  background-color: #f9fafc;
-  font-family: "Poppins", sans-serif;
+/*========= login html =========*/
+.container .txt-primary {
+  font-weight: 500;
+  color: var(--title-primary-color) !important;
+  font-size: 18px;
+}
+.container .txt-secondary {
+  color: var(--title-secondary-color) !important;
+}
+.container .input-form-login {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.container img {
+  size: 20px;
 }
 
-/*========= login html =========*/
 .container .pembungkus {
   margin-top: 200px;
 }

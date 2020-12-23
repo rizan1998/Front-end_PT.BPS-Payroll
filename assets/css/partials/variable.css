@@ -6,14 +6,15 @@ body {
   width: 100%;
   height: 100%;
   background-color: #F0F0F0;
+  font-family: var(--poppins);
 }
 
 :root {
   --primary-color: #F58634;
   --secondary-color: #fff;
   --big-title: #858585;
-  --title-color: #3f3658;
-  --title-secondary: color: rgba(0, 0, 0, 0.6);
+  --title-primary-color: #212529;
+  --title-secondary-color: color: rgba(0, 0, 0, 0.6);
   --text-color: #707070;
 
   /* font family variables */
