@@ -15,28 +15,29 @@
   </head>
   <body>
       <div class="container">
-          <div class="row pembungkus">
+          <div class="row pembungkus d-flex align-items-center">
               <div class="col-lg-6">
-                <form>
+                <form method="POST" action="#"  >
                     <div class="row mb-3">
                         <div class="col-12 mb-2">
-                            <h5 class="mb-4 txt-primary" >Login ke PT.BSP</h5>
-                            <input type="text" class="form-control form-control-lg txt-primary input-form-login " placeholder="First name">
+                            <h5 class="mb-4 font-weight-bold" >Login ke PT.BSP</h5>
+                            <input type="text" name="name" class="form-control form-control-lg txt-primary input-form-login " placeholder="Username">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <input type="text" class="form-control form-control-lg txt-secondary input-form-login " placeholder="Last name">
-                            <div class="d-flex justify-content-end mt-3 primary-color mb-2">
-                                <p>lupa kata sandi?</p>
+                            <input type="password" name="password" class="form-control form-control-lg txt-secondary input-form-login " placeholder="Password">
+                            <div class="d-flex justify-content-end mt-3 mb-2">
+                                <a href="#" class="primary-color">lupa kata sandi?</a>
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-primary btn-lg btn-block background-primary mt-5">Login</button> 
+                    <button type="button" class="btn btn-primary btn-lg btn-block background-primary mt-5 btn-login">Login</button> 
                   </form>
               </div>
-              <div class="col-lg-6">
-                <img src="assets/img/login-hero.png" class="img-fluid img-login-hero ml-5" alt="img-hero-login">
+              
+              <div class="col-lg-5 offset-1">
+                <img src="assets/img/login-hero.png" class="img-fluid img-login-hero d-sm-none d-md-block " alt="img-hero-login">
               </div>
           </div>
       </div>
