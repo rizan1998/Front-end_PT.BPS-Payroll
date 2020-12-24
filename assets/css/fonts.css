@@ -2,3 +2,8 @@
   font-family: "poppins";
   src: url("../font/Poppins/Poppins-Regular.ttf");
 }
+
+@font-face {
+  font-family: "nucleo";
+  src: url("../font/nucleo/nucleo-icons.ttf");
+}

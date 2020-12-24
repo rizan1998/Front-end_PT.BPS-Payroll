@@ -1,14 +1,7 @@
 .primary-color {
   color: #f58634;
 }
-.background-primary {
+.background-primary-all {
   background-color: #f58634;
   border: none;
-}
-
-.form-control-lg:focus-visible {
-  border-color: #f58634;
-  border: 2px solid #f58634;
-  box-shadow: none;
-  /* box-shadow: #f58634; */
 }
