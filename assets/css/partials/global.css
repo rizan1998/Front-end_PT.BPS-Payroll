@@ -1,6 +1,17 @@
+/* css variable */
+@import url("variable.css");
+
 .primary-color {
   color: #f58634;
 }
+
+.first-title {
+  font-family: var(--poppins);
+  font-size: 36px;
+  font-weight: 700;
+  color: #858585;
+}
+
 .background-primary-all {
   background-color: #f58634;
   border: none;

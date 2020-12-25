@@ -35,7 +35,7 @@
 }
 
 .container .btn-loginn:hover {
-  background-color: #dc6714;
+  background-color: var(--primary-color-hover);
 }
 
 .form-control-lg:focus-visible {
@@ -50,8 +50,39 @@
 #layoutSidenav .icon-color {
   color: var(--primary-color);
 }
-.bg-nav {
-  background-color: #fff;
+#layoutSidenav li:hover .icon-color,
+#layoutSidenav li:hover span {
+  color: white;
+}
+
+.sb-nav-fixed,
+.sb-topnav,
+.navbar.nav {
+  height: 80px;
+}
+
+.nav li:hover {
+  background-color: var(--primary-color-hover);
+  border-radius: 0px 100px 100px 0px;
+}
+
+.nav .nv-bg.navactive {
+  background-color: var(--primary-color);
+  border-radius: 0px 100px 100px 0px;
+}
+#layoutSidenav .nav .nv-bg.navactive .icon-color,
+#layoutSidenav .nav .nv-bg.navactive span {
+  color: white;
+}
+
+/* main */
+.form-control {
+  border-radius: 20px;
+}
+
+.btn.btn-plus {
+  background-color: var(--primary-color);
+  border-radius: 20px;
 }
 
 /* ====================== SB-ADMIN =================== */
@@ -3202,19 +3233,6 @@ input[type="button"].btn-block {
 
 .dropdown-toggle {
   white-space: nowrap;
-}
-.dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-}
-.dropdown-toggle:empty::after {
-  margin-left: 0;
 }
 
 .dropdown-menu {
@@ -7750,11 +7768,6 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
-}
-.sb-nav-fixed,
-.sb-topnav,
-.navbar.nav {
-  height: 83px;
 }
 
 .fixed-bottom {

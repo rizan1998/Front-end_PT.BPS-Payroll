@@ -43,11 +43,13 @@ body {
 
 :root {
   --primary-color: #F58634;
+  --primary-color-hover : #dc6714;
   --secondary-color: #fff;
   --big-title: #858585;
   --title-primary-color: #212529;
   --title-secondary-color: color: rgba(0, 0, 0, 0.6);
   --text-color: #707070;
+  --shadow-color: 4px 4px 2px rgba(0, 0, 0, 0.2);
 
   /* sb-admin */
   --blue: #007bff;
