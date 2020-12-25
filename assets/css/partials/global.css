@@ -16,3 +16,23 @@
   background-color: #f58634;
   border: none;
 }
+
+.btn-table-success {
+  background-color: #5df888;
+  color: white;
+  font-weight: 700;
+}
+
+.btn-table-danger {
+  background-color: #f85d5d;
+
+  color: white;
+  font-weight: 700;
+}
+
+.btn-table-warning {
+  background-color: #f4f830;
+
+  color: white;
+  font-weight: 700;
+}
