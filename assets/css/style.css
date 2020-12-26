@@ -187,20 +187,6 @@ table.table tr td:last-child {
   font-size: 17;
 }
 
-/* .card .background-shape {
-  width: 100%;
-  height: 95px;
-  background-image: url("../img/shape/round_carousel.png");
-  background-size: cover;
-  border: 1px solid red;
-} */
-
-.card .background-shape {
-  /* position: relative; */
-  /* left: 50px; */
-  /* background-color: red; */
-}
-
 .card .shape-text {
   position: relative;
   bottom: 106px;
