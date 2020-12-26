@@ -118,7 +118,7 @@
                         </div>
                         <div class="row card-profile mt-4">
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card rounded">
                                     <div class="card-body shape-color">
                                       <div class="row" style=" height: 130px; overflow:hidden;" >
                                           <div class="col-lg-5">
@@ -135,7 +135,7 @@
                                   </div>
                             </div>
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card rounded">
                                     <div class="card-body shape-color">
                                       <div class="row" style=" height: 130px; overflow:hidden;" >
                                           <div class="col-lg-5">
@@ -145,14 +145,22 @@
                                             <p class="shape-text2" >Rp.7,2Jt</p>
                                           </div>
                                           <div class="col-lg-6 offset-1">
-                                            <p class="mr-3 mt-3" >Persentase keanikan Gaji</p>
+                                            <p class=" mt-3" >Persentase kenaikan Gaji</p>
+                                            <div class="row">
+                                                <div class="col-lg-6 ">
+                                                    <p class="persentase-color mt-1">5%</p>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <img src="assets/img/shape/base_graphic.png" class="img-fluid" alt="">
+                                                </div>
+                                            </div>
                                           </div>
                                       </div>
                                     </div>
                                   </div>
                             </div>
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card rounded">
                                     <div class="card-body shape-color">
                                       <div class="row" style=" height: 130px; overflow:hidden;" >
                                           <div class="col-lg-5">
@@ -162,7 +170,15 @@
                                             <p class="shape-text3" >21</p>
                                           </div>
                                           <div class="col-lg-6 offset-1">
-                                            <p class="mr-3 mt-3" >Jumlah Proyek Selesai</p>
+                                            <p class=" mt-3" >Jumlah Proyek Selesai</p>
+                                            <div class="row">
+                                                <div class="col-lg-6 ">
+                                                    <p class="persentase-color mt-1">32%</p>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <img src="assets/img/shape/base_graphic.png" class="img-fluid" alt="">
+                                                </div>
+                                            </div>
                                           </div>
                                       </div>
                                     </div>
@@ -211,7 +227,7 @@
                                         <td class="dropdown" >
                                              <a class="nav-link dropdown-toggle" id="tabledropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>...</b></a>
                                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="tabledropdown">
-                                                <a class="dropdown-item" data-toggle="modal" data-target="#exampleModalLong" >Slip gaji</a>
+                                                <a class="dropdown-item" data-toggle="modal" data-target="#SlipGajiFailed" >Slip gaji</a>
                                                 <a class="dropdown-item" href="#">Report</a>
                                             </div>
                                         </td>
@@ -364,7 +380,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 ">
-                    <div class="row ml-3 p-2  background-danger justify-content-between">
+                    <div class="row ml-3 p-2 rounded background-success justify-content-between">
                         <div class="col-lg-3 ">
                             Pendapatan
                          </div>
@@ -372,19 +388,144 @@
                             Total
                          </div>
                     </div>
+                    <div class="row ml-3 p-1 mt-2 justify-content-between">
+                        <div class="col-lg-4 ">
+                            Gaji Pokok
+                         </div>
+                         <div class="col-lg-5  text-right ">
+                            Rp 7.000.000
+                         </div>
+                    </div>
+                    <div class="row ml-3 p-1 justify-content-between">
+                        <div class="col-lg-4 ">
+                            Penghasilan
+                         </div>
+                         <div class="col-lg-5 text-right">
+                            Rp 500.000
+                         </div>
+                    </div>
+                    <div class="row ml-3 p-1 justify-content-between">
+                        <div class="col-lg-4 ">
+                            Tunjangan Kesehatan
+                         </div>
+                         <div class="col-lg-5 text-right">
+                            Rp 1.000.000
+                         </div>
+                    </div>
+                    <div class="row ml-3 p-1 justify-content-between">
+                        <div class="col-lg-4 ">
+                            <b>Total</b>
+                         </div>
+                         <div class="col-lg-5 text-right">
+                            <b>Rp 8.500.000</b>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <div class="row p-2 ml-1 rounded background-danger justify-content-between">
+                        <div class="col-lg-3 ">
+                            Dikurangi
+                         </div>
+                         <div class="col-lg-3">
+                            Total
+                         </div>
+                    </div>
+                    <div class="row ml-1 p-1 mt-1 justify-content-between">
+                        <div class="col-lg-4 ">
+                            PPH Pasal 21
+                         </div>
+                         <div class="col-lg-5 ">
+                            Rp 21.000
+                         </div>
+                    </div>
+                    <div class="row ml-1 p-1 justify-content-between">
+                        <div class="col-lg-4 ">
+                            Pinjaman Perusahaan
+                         </div>
+                         <div class="col-lg-5 ">
+                            Rp 1.200.000
+                         </div>
+                    </div>
+                    <div class="row ml-1 p-1 justify-content-between">
+                        <div class="col-lg-4 ">
+                            Lain - lain
+                         </div>
+                         <div class="col-lg-5 ">
+                            Rp -
+                         </div>
+                    </div>
+                    <div class="row ml-1 p-1 justify-content-between">
+                        <div class="col-lg-4 ">
+                            <b>Total</b>
+                         </div>
+                         <div class="col-lg-5 ">
+                            <b>Rp 1.221.000</b>
+                         </div>
+                    </div>
                    
                 </div>
-                <div class="col-lg-6">
-
+            </div>
+            <hr>
+            <div class="row justify-content-md-end">
+                <div class="col-lg-5">
+                    <b>Total Pendapatan Rp 8.500.000</b>
+                    <b>Toal Pengurangan Rp 1.221.000</b>
+                    <h5><b>Gaji Bersih Rp 1.221.000</b></h5>
                 </div>
             </div>
+            <hr>
+             <div class="row">
+                    <div class="col-lg-2 ml-auto justify-content-end">
+                        <a href="#" class="primary-colors" >
+                            <div class="media ml-auto align-content-center  ">
+                                <img height="20" width="20" class="align-self-center mr-2 rounded-circle" src="assets/img/icon/icon-print.png" alt="Generic placeholder image">
+                                <div class="media-body ">
+                                    <span class="primary-color" >Print</span>
+                                </div>
+                                </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 justify-content-end ">
+                        <a href="#">
+                            <div class="media">
+                                <img height="25" width="25" class=" " src="assets/img/icon/icon-cloud.png" alt="Generic placeholder image">
+                                <div class="media-body" style="margin:0;">
+                                    <span class="primary-color">Generate.Csv</span>
+                                </div>
+                                </div>
+                        </a>
+                    </div>
+                </div>
           </div>
       </div>
     </div>
   </div>
 
   <!-- modal tampil slip gaji tidak dapat dilihat -->
-
+  <div class="modal fade" id="SlipGajiFailed" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <img src="assets/img/modal/modal-failed.png" alt="">
+                  <h5 class="mt-3 primary-color" style="font-weight: 700;" >Tidak dapat menampilkan slip gaji</h5>
+                  <p class="modal-color mt-2" >tidak dapat menampilkan slip gaji bulan ini</p>
+                  <p class="modal-color" >karena gaji masih belum dibayarkan</p>
+                  <button class="btn btn-plus pr-4 pl-4 mt-3"  data-dismiss="modal">kembali</button>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 
 
 

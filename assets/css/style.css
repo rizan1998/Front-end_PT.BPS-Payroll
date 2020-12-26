@@ -223,7 +223,16 @@ table.table tr td:last-child {
   /* background-color: red; */
 }
 
+.persentase-color {
+  color: #1cd1a1;
+}
+
 .card .shape-color {
   color: var(--primary-color);
   font-weight: 700;
+}
+
+.modal .modal-color {
+  color: var(--big-title);
+  margin: 0;
 }
